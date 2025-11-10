@@ -186,7 +186,7 @@ Workflow File:
 ## 👤 Author
 
 **Debasish** — QA Automation Engineer
-📧 Email: [22btics06@suiit.ac.in](mailto:22btics06@suiit.ac.in)
+📧 Email: [debasishm8765@gmail.com](mailto:debasishm8765@gmail.com)
 🔗 GitHub Profile: [https://github.com/Debasish-87](https://github.com/Debasish-87)
 
 ---
@@ -195,6 +195,3 @@ Workflow File:
 
 ```
 
-
-And I’ll create a **strong post + hashtags** that gets **recruiter attention** 🔥
-```

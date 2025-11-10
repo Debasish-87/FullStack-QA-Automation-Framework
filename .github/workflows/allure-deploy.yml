@@ -4,12 +4,15 @@ on:
   push:
     branches: [ main ]
 
+permissions:
+  contents: write
+
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout Code
+      - name: Checkout repository
         uses: actions/checkout@v4
 
       - name: Set up Java
@@ -18,7 +21,7 @@ jobs:
           distribution: 'temurin'
           java-version: '17'
 
-      - name: Run Tests (Headless)
+      - name: Run Tests in Headless Mode
         run: mvn clean test -Dheadless=true
 
       - name: Generate Allure Report

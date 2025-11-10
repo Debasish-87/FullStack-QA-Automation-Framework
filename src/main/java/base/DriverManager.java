@@ -13,34 +13,30 @@ public class DriverManager {
         WebDriverManager.chromedriver().setup();
         ChromeOptions options = new ChromeOptions();
 
-        // Disable Password Save Popup Completely (Chrome 142+)
+        // Disable Chrome popups / password prompts
         options.addArguments("--disable-features=PasswordManagerOnboarding,PasswordManagerUI,CredentialProviderExtension");
         options.addArguments("--password-store=basic");
-
-        // Run browser clean every time
-        options.addArguments("--incognito");
         options.addArguments("--no-default-browser-check");
         options.addArguments("--no-first-run");
-
-        // Disable notifications & automation banner
+        options.addArguments("--incognito");
         options.addArguments("--disable-notifications");
         options.addArguments("--disable-infobars");
         options.setExperimentalOption("excludeSwitches", new String[]{"enable-automation"});
 
-        // ✅ HEADLESS MODE SUPPORT FOR CI/CD
+        // ✅ HEADLESS Mode for CI/CD (GitHub Actions / Jenkins / Docker)
         if (System.getProperty("headless", "false").equalsIgnoreCase("true")) {
-            options.addArguments("--headless=new"); // new headless mode
+            options.addArguments("--headless=new"); // new stable headless mode (Chrome 109+)
             options.addArguments("--disable-gpu");
-            options.addArguments("--window-size=1920,1080");
-            options.addArguments("--no-sandbox");
             options.addArguments("--disable-dev-shm-usage");
+            options.addArguments("--no-sandbox");
+            options.addArguments("--window-size=1920,1080");
         } else {
+            // Normal full UI mode when running locally
             options.addArguments("--start-maximized");
         }
 
         driver.set(new ChromeDriver(options));
     }
-
 
     public static WebDriver getDriver() {
         return driver.get();

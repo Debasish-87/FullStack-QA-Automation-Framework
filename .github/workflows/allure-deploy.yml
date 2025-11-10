@@ -18,21 +18,21 @@ jobs:
           distribution: 'temurin'
           java-version: '17'
 
-      - name: Set up Chrome
-        uses: browser-actions/setup-chrome@v1
-
-      - name: Verify Chrome Version
-        run: google-chrome --version
-
-      - name: Run Tests (Headless)
+      - name: Run Tests (Headless for CI)
         run: mvn clean test -Dheadless=true
 
-      - name: Generate Allure Report
-        run: mvn allure:report
+      - name: Install Allure CLI
+        run: |
+          sudo apt-add-repository ppa:qameta/allure -y
+          sudo apt-get update
+          sudo apt-get install allure -y
 
-      - name: Deploy Allure Report to GitHub Pages
+      - name: Generate Allure Report
+        run: allure generate allure-results --clean -o allure-report
+
+      - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./target/site/allure-maven-plugin
+          publish_dir: ./allure-report
           publish_branch: gh-pages

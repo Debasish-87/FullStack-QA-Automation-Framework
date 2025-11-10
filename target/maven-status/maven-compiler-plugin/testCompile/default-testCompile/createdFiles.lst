@@ -1,5 +1,0 @@
-tests\ui\LoginTest.class
-tests\api\ReqResApiTests.class
-tests\api\ReqResTests.class
-listeners\TestListener.class
-tests\ui\CheckoutFlowTests.class

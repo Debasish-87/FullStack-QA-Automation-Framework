@@ -1,5 +1,0 @@
-# Created at 2025-11-10T09:59:26.597
-Boot Manifest-JAR contains absolute paths in classpath 'D:\qa-automation-framework-selenium-testng-allure\target\test-classes'
-Hint: <argLine>-Djdk.net.URLClassPath.disableClassPathURLCheck=true</argLine>
-'other' has different root
-

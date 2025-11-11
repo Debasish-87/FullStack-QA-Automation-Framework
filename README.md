@@ -53,11 +53,11 @@ qa-automation-framework-selenium-testng-allure
 ├── src
 │ ├── main
 │ │ ├── java
-│ │ │ ├── base # Base + WebDriver Setup Layer
-│ │ │ │ ├── BaseTest.java # Test setup, teardown & driver lifecycle
-│ │ │ │ └── DriverManager.java # Local / Remote driver factory + headless support
+│ │ │ ├── base     # Base + WebDriver Setup Layer
+│ │ │ │ ├── BaseTest.java     # Test setup, teardown & driver lifecycle
+│ │ │ │ └── DriverManager.java     # Local / Remote driver factory + headless support
 │ │ │ │
-│ │ │ ├── pages # Page Object Model (UI Screens)
+│ │ │ ├── pages     # Page Object Model (UI Screens)
 │ │ │ │ ├── LoginPage.java
 │ │ │ │ ├── InventoryPage.java
 │ │ │ │ ├── CartPage.java
@@ -65,47 +65,47 @@ qa-automation-framework-selenium-testng-allure
 │ │ │ │ ├── CheckoutOverviewPage.java
 │ │ │ │ └── OrderSuccessPage.java
 │ │ │ │
-│ │ │ ├── utils # Common Utilities & Helpers
+│ │ │ ├── utils     # Common Utilities & Helpers
 │ │ │ │ ├── WaitUtils.java
 │ │ │ │ ├── LoggerUtil.java
 │ │ │ │ ├── ScreenshotUtils.java
-│ │ │ │ ├── ExcelUtils.java # Excel Data Provider
-│ │ │ │ ├── JsonUtils.java # JSON Data Provider
-│ │ │ │ ├── ConfigReader.java # config.properties loader
-│ │ │ │ └── DatabaseUtils.java # MySQL DB Integration (Tests read credentials from DB)
+│ │ │ │ ├── ExcelUtils.java     # Excel Data Provider
+│ │ │ │ ├── JsonUtils.java     # JSON Data Provider
+│ │ │ │ ├── ConfigReader.java     # config.properties loader
+│ │ │ │ └── DatabaseUtils.java     # MySQL DB Integration (Tests read credentials from DB)
 │ │ │ │
-│ │ │ └── api # API Service Layer (REST-Assured)
-│ │ │ ├── ApiClient.java # Base request specification
-│ │ │ └── ReqResService.java # Example API service wrapper
+│ │ │ └── api     # API Service Layer (REST-Assured)
+│ │ │ ├── ApiClient.java     # Base request specification
+│ │ │ └── ReqResService.java     # Example API service wrapper
 │ │ │
-│ │ └── resources # Framework Configurations
-│ │ ├── config.properties # URL, browser, DB connection settings
-│ │ ├── environment.properties # Example env switch support
-│ │ └── log4j2.xml # Logging config
+│ │ └── resources     # Framework Configurations
+│ │ ├── config.properties     # URL, browser, DB connection settings
+│ │ ├── environment.properties     # Example env switch support
+│ │ └── log4j2.xml     # Logging config
 │ │
 │ └── test
 │ ├── java
 │ │ ├── tests
-│ │ │ ├── ui # UI Functional Tests (Selenium + TestNG)
-│ │ │ │ ├── LoginTest.java # Login test using DB + DataProvider
+│ │ │ ├── ui     # UI Functional Tests (Selenium + TestNG)
+│ │ │ │ ├── LoginTest.java     # Login test using DB + DataProvider
 │ │ │ │ └── CheckoutFlowTests.java
 │ │ │ │
-│ │ │ └── api # API Tests (REST-Assured + TestNG)
+│ │ │ └── api     # API Tests (REST-Assured + TestNG)
 │ │ │ ├── ReqResApiTests.java
 │ │ │ └── ReqResTests.java
 │ │ │
-│ │ └── listeners # Reporting + Screenshot on Failure
-│ │ └── TestListener.java # Allure Listener
+│ │ └── listeners     # Reporting + Screenshot on Failure
+│ │ └── TestListener.java     # Allure Listener
 │ │
-│ └── resources/testdata # Data-Driven Testing Files
-│ ├── logindata.xlsx # Excel-based test data
-│ └── createUser.json # JSON test payload
+│ └── resources/testdata     # Data-Driven Testing Files
+│ ├── logindata.xlsx     # Excel-based test data
+│ └── createUser.json     # JSON test payload
 │
-├── allure-results # Allure execution result files (auto-generated)
-├── logs # Framework execution logs
-└── .github/workflows # CI/CD Pipelines
-├── ci.yml # GitHub Actions test pipeline (headless execution + MySQL container)
-└── allure-deploy.yml # Optional: auto-publish Allure report
+├── allure-results     # Allure execution result files (auto-generated)
+├── logs     # Framework execution logs
+└── .github/workflows     # CI/CD Pipelines
+├── ci.yml     # GitHub Actions test pipeline (headless execution + MySQL container)
+└── allure-deploy.yml     # Optional: auto-publish Allure report
 
 ````
 

@@ -13,6 +13,14 @@ This is a **Production-Grade** Automation Framework  ( QE 1.0 ) designed for **U
 
 ---
 
+## 🎥 QE 3.0 – Intelligent Release Decision Demo
+
+▶️ **Click below to watch the demo video**
+
+https://github.com/user-attachments/assets/4e598767-28ab-4291-972b-4a8f1a818b53
+
+---
+
 
 ## ✅ Key Features ( QE 1.0 )
 

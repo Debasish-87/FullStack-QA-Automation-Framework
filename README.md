@@ -221,7 +221,10 @@ Designed for production-grade automation, not demo testing.
 
 ## 👤 Author
 
-**Debasish** — QA Automation | Cloud DevOps Engineer
+**Debasish** 
+
+QA Automation | Cloud DevOps Engineer
+
 📧 Email: [debasishm8765@gmail.com](mailto:debasishm8765@gmail.com)
 🔗 GitHub Profile: [https://github.com/Debasish-87](https://github.com/Debasish-87)
 

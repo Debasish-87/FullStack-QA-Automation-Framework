@@ -13,7 +13,7 @@ This is a **Production-Grade** Automation Framework  ( QE 1.0 ) designed for **U
 
 ---
 
-## 🎥 QE 1.0 – Intelligent Release Decision Demo
+## 🎥 QE 1.0 – Full-Stack Automation Framework Demo
 
 ▶️ **Click below to watch the demo video**
 

@@ -1,4 +1,4 @@
-# Full-Stack QA Automation System ( QE 1.0 )
+# Full-Stack Quality Engineering Framework ( QE 1.0 )
 
 ## *( Selenium + TestNG + POM + Allure Reporting + API + Database + CI/CD with GitHub Pages Dashboard )*
 
@@ -6,10 +6,10 @@
 This is a **Production-Grade** Automation System  ( QE 1.0 ) designed for **UI + API Testing + Database Testing** with a clean, modular structure using **Page Object Model (POM)**, **Data-Driven Testing**, **Allure Reporting**, and **Continuous Integration** via **GitHub Actions**.
 
 ### 🔥 Live Allure Report Dashboard   ( QE 1.0 )
-🔗 **[https://debasish-87.github.io/FullStack-QA-Automation-System/](https://debasish-87.github.io/FullStack-QA-Automation-System/)**
+🔗 **[https://debasish-87.github.io/fullstack-quality-engineering-framework/](https://debasish-87.github.io/fullstack-quality-engineering-framework/)**
 
-[![Allure_Report](https://img.shields.io/badge/Allure-Report-blue?style=for-the-badge)](https://debasish-87.github.io/FullStack-QA-Automation-System/)
-[![Build Status](https://img.shields.io/github/actions/workflow/status/Debasish-87/FullStack-QA-Automation-System/allure-deploy.yml?label=CI%20Build&style=for-the-badge)](https://github.com/Debasish-87/FullStack-QA-Automation-System/actions)
+[![Allure_Report](https://img.shields.io/badge/Allure-Report-blue?style=for-the-badge)](https://debasish-87.github.io/fullstack-quality-engineering-framework/)
+[![Build Status](https://img.shields.io/github/actions/workflow/status/Debasish-87/fullstack-quality-engineering-framework/allure-deploy.yml?label=CI%20Build&style=for-the-badge)](https://github.com/Debasish-87/fullstack-quality-engineering-framework/actions)
 
 ---
 
@@ -56,7 +56,7 @@ https://github.com/user-attachments/assets/4e598767-28ab-4291-972b-4a8f1a818b53
 
 ```text
 
-FullStack-QA-Automation-System
+fullstack-quality-engineering-framework
 │
 ├── pom.xml                         # Dependencies & Plugins
 ├── testng.xml                      # Test Suite Runner

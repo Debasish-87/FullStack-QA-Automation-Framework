@@ -6,10 +6,10 @@
 This is a **Production-Grade** Automation System  ( QE 1.0 ) designed for **UI + API Testing + Database Testing** with a clean, modular structure using **Page Object Model (POM)**, **Data-Driven Testing**, **Allure Reporting**, and **Continuous Integration** via **GitHub Actions**.
 
 ### 🔥 Live Allure Report Dashboard   ( QE 1.0 )
-🔗 **[https://debasish-87.github.io/FullStack-QA-Automation-Framework/](https://debasish-87.github.io/FullStack-QA-Automation-Framework/)**
+🔗 **[https://debasish-87.github.io/FullStack-QA-Automation-System/](https://debasish-87.github.io/FullStack-QA-Automation-System/)**
 
-[![Allure_Report](https://img.shields.io/badge/Allure-Report-blue?style=for-the-badge)](https://debasish-87.github.io/FullStack-QA-Automation-Framework/)
-[![Build Status](https://img.shields.io/github/actions/workflow/status/Debasish-87/FullStack-QA-Automation-Framework/allure-deploy.yml?label=CI%20Build&style=for-the-badge)](https://github.com/Debasish-87/FullStack-QA-Automation-Framework/actions)
+[![Allure_Report](https://img.shields.io/badge/Allure-Report-blue?style=for-the-badge)](https://debasish-87.github.io/FullStack-QA-Automation-System/)
+[![Build Status](https://img.shields.io/github/actions/workflow/status/Debasish-87/FullStack-QA-Automation-System/allure-deploy.yml?label=CI%20Build&style=for-the-badge)](https://github.com/Debasish-87/FullStack-QA-Automation-System/actions)
 
 ---
 
